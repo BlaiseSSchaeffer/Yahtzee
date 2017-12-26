@@ -252,14 +252,15 @@ public class Scoring {
 				scoreIdxSet.add(scoreIdx);
 				updateScoreCard();
 				scored = true;
-				if (scoreIdxSet.size() == 13) {
-					System.out.println("Game over... final score: " + score + "\nEnter 'G' for a new game!");
-				}
+
 			} else {
 				System.out.println("You have already scored option " + scoreIdx + "...");
 			}
 		}
 		printScoreCard();
+		if (scoreIdxSet.size() == 13) {
+			System.out.println("Game over... final score: " + score + "\nEnter 'G' for a new game!");
+		}
 		return scored;
 	}
 }

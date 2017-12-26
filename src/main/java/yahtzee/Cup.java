@@ -14,7 +14,6 @@ public class Cup {
 		for (int i = 0; i < numDice; i++) {
 			dice.add(new Die(numSides));
 		}
-		shake();
 	}
 
 	public Cup() {
@@ -24,7 +23,6 @@ public class Cup {
 		for (int i = 0; i < 5; i++) {
 			dice.add(new Die());
 		}
-		shake();
 	}
 
 	public void shake() {

@@ -44,7 +44,6 @@ public class Yahtzee {
 		System.out.println("To print the dice, enter 'PD'.");
 		System.out.println("To print the score card enter 'PS'.");
 		System.out.println("To show this menu enter 'H'.");
-		System.out.println("The dice have already been rolled once.");
 		System.out.println("");
 	}
 
