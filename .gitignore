@@ -1,0 +1,28 @@
+# Sensitive Files
+persistence.xml
+Config.java
+
+/bin/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Gradle
+.gradle/
+
+# Generated Files
+build/
+*.class
+.DS_Store
+.factorypath
+
+# Apt
+.apt_generated
+
+# Package Files
+*.jar
+*.war
+*.ear
